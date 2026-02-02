@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>新春快乐</title>
+  <style>
+    body {
+      margin: 0;
+      background: linear-gradient(#c80000, #ff3b3b);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: "Microsoft YaHei", sans-serif;
+      color: gold;
+      text-align: center;
+    }
+
+    .box {
+      background: rgba(0, 0, 0, 0.2);
+      padding: 50px;
+      border-radius: 20px;
+      box-shadow: 0 0 30px gold;
+    }
+
+    h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 26px;
+    }
+
+    .lantern {
+      font-size: 60px;
+      animation: swing 2s infinite ease-in-out;
+    }
+
+    @keyframes swing {
+      0% { transform: rotate(5deg); }
+      50% { transform: rotate(-5deg); }
+      100% { transform: rotate(5deg); }
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <div class="lantern">🏮🏮🏮</div>
+    <h1>新春快乐</h1>
+    <p>恭喜发财 · 万事如意 · 阖家幸福</p>
+  </div>
+</body>
+</html>
